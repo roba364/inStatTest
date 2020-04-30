@@ -1,5 +1,5 @@
 //
-//  Model.swift
+//  PlayersResponse.swift
 //  InStatTest
 //
 //  Created by SofiaBuslavskaya on 30/04/2020.
@@ -8,6 +8,8 @@
 
 import Foundation
 
-class Model {
-    
+struct PlayersResponse {
+    let order: Int?
+    let playerId: Int?
+    let playerName: String?
 }

@@ -9,11 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let network = NetworkImplementation()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let commit = "commit"
+        
     }
 
 
