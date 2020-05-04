@@ -24,6 +24,8 @@
 		A482DE29245B043600D1C47B /* StatisticResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A482DE28245B043600D1C47B /* StatisticResponse.swift */; };
 		A482DE2C245B05C400D1C47B /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = A482DE2B245B05C400D1C47B /* Network.swift */; };
 		A482DE2E245B067F00D1C47B /* NetworkImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A482DE2D245B067F00D1C47B /* NetworkImplementation.swift */; };
+		A4AE408024601BB700677DD0 /* MatchStatisticService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AE407F24601BB700677DD0 /* MatchStatisticService.swift */; };
+		A4AE408224601C1800677DD0 /* MatchStatisticServiceImplmplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AE408124601C1800677DD0 /* MatchStatisticServiceImplmplementation.swift */; };
 		FCF16269605307965D24AAF2 /* Pods_InStatTest_InStatTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B5F5A41C96C96AAF298753 /* Pods_InStatTest_InStatTestUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +74,8 @@
 		A482DE28245B043600D1C47B /* StatisticResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticResponse.swift; sourceTree = "<group>"; };
 		A482DE2B245B05C400D1C47B /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		A482DE2D245B067F00D1C47B /* NetworkImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkImplementation.swift; sourceTree = "<group>"; };
+		A4AE407F24601BB700677DD0 /* MatchStatisticService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchStatisticService.swift; sourceTree = "<group>"; };
+		A4AE408124601C1800677DD0 /* MatchStatisticServiceImplmplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchStatisticServiceImplmplementation.swift; sourceTree = "<group>"; };
 		AC6E01C8365F5E5BBC5792A4 /* Pods_InStatTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InStatTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C687E9C1D956B72A721BEE12 /* Pods-InStatTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InStatTestTests.release.xcconfig"; path = "Target Support Files/Pods-InStatTestTests/Pods-InStatTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		D0DA4600AD5E52F02135B559 /* Pods-InStatTest-InStatTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InStatTest-InStatTestUITests.release.xcconfig"; path = "Target Support Files/Pods-InStatTest-InStatTestUITests/Pods-InStatTest-InStatTestUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -154,6 +158,7 @@
 				A482DDF2245AEDE700D1C47B /* AppDelegate.swift */,
 				A482DDF4245AEDE700D1C47B /* SceneDelegate.swift */,
 				A482DDF6245AEDE700D1C47B /* ViewController.swift */,
+				A4AE40842460204100677DD0 /* BusinessLogicLayer */,
 				A42C7B4D245B0E1200673B86 /* NetworkLayer */,
 				A482DE2A245B046300D1C47B /* Model */,
 				A482DDF8245AEDE700D1C47B /* Main.storyboard */,
@@ -190,6 +195,23 @@
 				A482DE24245B03B800D1C47B /* Team.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		A4AE40832460203900677DD0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A4AE407F24601BB700677DD0 /* MatchStatisticService.swift */,
+				A4AE408124601C1800677DD0 /* MatchStatisticServiceImplmplementation.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A4AE40842460204100677DD0 /* BusinessLogicLayer */ = {
+			isa = PBXGroup;
+			children = (
+				A4AE40832460203900677DD0 /* Services */,
+			);
+			path = BusinessLogicLayer;
 			sourceTree = "<group>";
 		};
 		BDC5C5891FDFA5CA322DD45C /* Pods */ = {
@@ -444,6 +466,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4AE408224601C1800677DD0 /* MatchStatisticServiceImplmplementation.swift in Sources */,
 				A482DE25245B03B800D1C47B /* Team.swift in Sources */,
 				A482DDF7245AEDE700D1C47B /* ViewController.swift in Sources */,
 				A482DDF3245AEDE700D1C47B /* AppDelegate.swift in Sources */,
@@ -452,6 +475,7 @@
 				A42C7B4A245B0C0B00673B86 /* Mapper.swift in Sources */,
 				A482DDF5245AEDE700D1C47B /* SceneDelegate.swift in Sources */,
 				A482DE2C245B05C400D1C47B /* Network.swift in Sources */,
+				A4AE408024601BB700677DD0 /* MatchStatisticService.swift in Sources */,
 				A482DE2E245B067F00D1C47B /* NetworkImplementation.swift in Sources */,
 				A482DE29245B043600D1C47B /* StatisticResponse.swift in Sources */,
 			);

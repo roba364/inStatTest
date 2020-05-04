@@ -10,5 +10,5 @@ import Foundation
 import Alamofire
 
 protocol Network {
-    func loadData(completion: @escaping (Result<Any, AFError>) -> Void)
+    func loadData(completion: @escaping (AFResult<Any>) -> Void)
 }
