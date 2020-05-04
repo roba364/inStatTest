@@ -25,7 +25,7 @@
 		A482DE2C245B05C400D1C47B /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = A482DE2B245B05C400D1C47B /* Network.swift */; };
 		A482DE2E245B067F00D1C47B /* NetworkImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A482DE2D245B067F00D1C47B /* NetworkImplementation.swift */; };
 		A4AE408024601BB700677DD0 /* MatchStatisticService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AE407F24601BB700677DD0 /* MatchStatisticService.swift */; };
-		A4AE408224601C1800677DD0 /* MatchStatisticServiceImplmplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AE408124601C1800677DD0 /* MatchStatisticServiceImplmplementation.swift */; };
+		A4AE408224601C1800677DD0 /* MatchStatisticServicelmplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AE408124601C1800677DD0 /* MatchStatisticServicelmplementation.swift */; };
 		A4AE40862460226100677DD0 /* MatchStatisticCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AE40852460226100677DD0 /* MatchStatisticCellViewModel.swift */; };
 		A4AE40882460228300677DD0 /* MatchStatisticCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AE40872460228300677DD0 /* MatchStatisticCellView.swift */; };
 		A4AE408A246022B100677DD0 /* MatchStatisticHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AE4089246022B100677DD0 /* MatchStatisticHeaderView.swift */; };
@@ -33,6 +33,7 @@
 		A4AE408F246023A600677DD0 /* MatchStatisticViewControllerOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AE408E246023A600677DD0 /* MatchStatisticViewControllerOutput.swift */; };
 		A4AE4092246028E400677DD0 /* MatchStatisticPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AE4091246028E400677DD0 /* MatchStatisticPresenter.swift */; };
 		A4AE409524602A1B00677DD0 /* MatchStatisticViewControllerConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AE409424602A1B00677DD0 /* MatchStatisticViewControllerConfigurator.swift */; };
+		A4AE409724602B4F00677DD0 /* MatchStatisticViewControllerInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AE409624602B4F00677DD0 /* MatchStatisticViewControllerInitializer.swift */; };
 		FCF16269605307965D24AAF2 /* Pods_InStatTest_InStatTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B5F5A41C96C96AAF298753 /* Pods_InStatTest_InStatTestUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -82,7 +83,7 @@
 		A482DE2B245B05C400D1C47B /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		A482DE2D245B067F00D1C47B /* NetworkImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkImplementation.swift; sourceTree = "<group>"; };
 		A4AE407F24601BB700677DD0 /* MatchStatisticService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchStatisticService.swift; sourceTree = "<group>"; };
-		A4AE408124601C1800677DD0 /* MatchStatisticServiceImplmplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchStatisticServiceImplmplementation.swift; sourceTree = "<group>"; };
+		A4AE408124601C1800677DD0 /* MatchStatisticServicelmplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchStatisticServicelmplementation.swift; sourceTree = "<group>"; };
 		A4AE40852460226100677DD0 /* MatchStatisticCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchStatisticCellViewModel.swift; sourceTree = "<group>"; };
 		A4AE40872460228300677DD0 /* MatchStatisticCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchStatisticCellView.swift; sourceTree = "<group>"; };
 		A4AE4089246022B100677DD0 /* MatchStatisticHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchStatisticHeaderView.swift; sourceTree = "<group>"; };
@@ -90,6 +91,7 @@
 		A4AE408E246023A600677DD0 /* MatchStatisticViewControllerOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchStatisticViewControllerOutput.swift; sourceTree = "<group>"; };
 		A4AE4091246028E400677DD0 /* MatchStatisticPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchStatisticPresenter.swift; sourceTree = "<group>"; };
 		A4AE409424602A1B00677DD0 /* MatchStatisticViewControllerConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchStatisticViewControllerConfigurator.swift; sourceTree = "<group>"; };
+		A4AE409624602B4F00677DD0 /* MatchStatisticViewControllerInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchStatisticViewControllerInitializer.swift; sourceTree = "<group>"; };
 		AC6E01C8365F5E5BBC5792A4 /* Pods_InStatTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InStatTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C687E9C1D956B72A721BEE12 /* Pods-InStatTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InStatTestTests.release.xcconfig"; path = "Target Support Files/Pods-InStatTestTests/Pods-InStatTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		D0DA4600AD5E52F02135B559 /* Pods-InStatTest-InStatTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InStatTest-InStatTestUITests.release.xcconfig"; path = "Target Support Files/Pods-InStatTest-InStatTestUITests/Pods-InStatTest-InStatTestUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -171,9 +173,7 @@
 			children = (
 				A482DDF2245AEDE700D1C47B /* AppDelegate.swift */,
 				A482DDF4245AEDE700D1C47B /* SceneDelegate.swift */,
-				A4AE409424602A1B00677DD0 /* MatchStatisticViewControllerConfigurator.swift */,
-				A4AE4093246029D000677DD0 /* Presenter */,
-				A4AE4090246023BF00677DD0 /* View */,
+				A4AE409924602C2A00677DD0 /* PresentationLayer */,
 				A4AE40842460204100677DD0 /* BusinessLogicLayer */,
 				A42C7B4D245B0E1200673B86 /* NetworkLayer */,
 				A482DE2A245B046300D1C47B /* Model */,
@@ -217,7 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				A4AE407F24601BB700677DD0 /* MatchStatisticService.swift */,
-				A4AE408124601C1800677DD0 /* MatchStatisticServiceImplmplementation.swift */,
+				A4AE408124601C1800677DD0 /* MatchStatisticServicelmplementation.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -257,6 +257,25 @@
 				A4AE4091246028E400677DD0 /* MatchStatisticPresenter.swift */,
 			);
 			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A4AE409824602C1800677DD0 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				A4AE409424602A1B00677DD0 /* MatchStatisticViewControllerConfigurator.swift */,
+				A4AE409624602B4F00677DD0 /* MatchStatisticViewControllerInitializer.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		A4AE409924602C2A00677DD0 /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				A4AE409824602C1800677DD0 /* Configurator */,
+				A4AE4093246029D000677DD0 /* Presenter */,
+				A4AE4090246023BF00677DD0 /* View */,
+			);
+			path = PresentationLayer;
 			sourceTree = "<group>";
 		};
 		BDC5C5891FDFA5CA322DD45C /* Pods */ = {
@@ -512,7 +531,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4AE4092246028E400677DD0 /* MatchStatisticPresenter.swift in Sources */,
-				A4AE408224601C1800677DD0 /* MatchStatisticServiceImplmplementation.swift in Sources */,
+				A4AE408224601C1800677DD0 /* MatchStatisticServicelmplementation.swift in Sources */,
 				A482DE25245B03B800D1C47B /* Team.swift in Sources */,
 				A482DDF7245AEDE700D1C47B /* MatchStatisticViewController.swift in Sources */,
 				A482DDF3245AEDE700D1C47B /* AppDelegate.swift in Sources */,
@@ -523,6 +542,7 @@
 				A42C7B4A245B0C0B00673B86 /* Mapper.swift in Sources */,
 				A482DDF5245AEDE700D1C47B /* SceneDelegate.swift in Sources */,
 				A4AE408F246023A600677DD0 /* MatchStatisticViewControllerOutput.swift in Sources */,
+				A4AE409724602B4F00677DD0 /* MatchStatisticViewControllerInitializer.swift in Sources */,
 				A482DE2C245B05C400D1C47B /* Network.swift in Sources */,
 				A4AE408024601BB700677DD0 /* MatchStatisticService.swift in Sources */,
 				A482DE2E245B067F00D1C47B /* NetworkImplementation.swift in Sources */,

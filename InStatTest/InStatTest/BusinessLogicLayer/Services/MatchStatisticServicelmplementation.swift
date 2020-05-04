@@ -8,7 +8,7 @@
 
 import Foundation
 
-class MatchStatisticServiceImplmplementation: MatchStatisticService {
+class MatchStatisticServiceImplementation: MatchStatisticService {
     
     var network: Network!
     var mapper: Mapper!

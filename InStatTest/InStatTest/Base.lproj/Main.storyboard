@@ -171,6 +171,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <customObject id="3rb-fR-TD8"/>
             </objects>
             <point key="canvasLocation" x="131.8840579710145" y="112.5"/>
         </scene>
