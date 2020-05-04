@@ -31,6 +31,8 @@
 		A4AE408A246022B100677DD0 /* MatchStatisticHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AE4089246022B100677DD0 /* MatchStatisticHeaderView.swift */; };
 		A4AE408D2460238000677DD0 /* MatchStatisticViewControllerInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AE408C2460238000677DD0 /* MatchStatisticViewControllerInput.swift */; };
 		A4AE408F246023A600677DD0 /* MatchStatisticViewControllerOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AE408E246023A600677DD0 /* MatchStatisticViewControllerOutput.swift */; };
+		A4AE4092246028E400677DD0 /* MatchStatisticPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AE4091246028E400677DD0 /* MatchStatisticPresenter.swift */; };
+		A4AE409524602A1B00677DD0 /* MatchStatisticViewControllerConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AE409424602A1B00677DD0 /* MatchStatisticViewControllerConfigurator.swift */; };
 		FCF16269605307965D24AAF2 /* Pods_InStatTest_InStatTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B5F5A41C96C96AAF298753 /* Pods_InStatTest_InStatTestUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -86,6 +88,8 @@
 		A4AE4089246022B100677DD0 /* MatchStatisticHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchStatisticHeaderView.swift; sourceTree = "<group>"; };
 		A4AE408C2460238000677DD0 /* MatchStatisticViewControllerInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchStatisticViewControllerInput.swift; sourceTree = "<group>"; };
 		A4AE408E246023A600677DD0 /* MatchStatisticViewControllerOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchStatisticViewControllerOutput.swift; sourceTree = "<group>"; };
+		A4AE4091246028E400677DD0 /* MatchStatisticPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchStatisticPresenter.swift; sourceTree = "<group>"; };
+		A4AE409424602A1B00677DD0 /* MatchStatisticViewControllerConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchStatisticViewControllerConfigurator.swift; sourceTree = "<group>"; };
 		AC6E01C8365F5E5BBC5792A4 /* Pods_InStatTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InStatTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C687E9C1D956B72A721BEE12 /* Pods-InStatTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InStatTestTests.release.xcconfig"; path = "Target Support Files/Pods-InStatTestTests/Pods-InStatTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		D0DA4600AD5E52F02135B559 /* Pods-InStatTest-InStatTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InStatTest-InStatTestUITests.release.xcconfig"; path = "Target Support Files/Pods-InStatTest-InStatTestUITests/Pods-InStatTest-InStatTestUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -167,6 +171,8 @@
 			children = (
 				A482DDF2245AEDE700D1C47B /* AppDelegate.swift */,
 				A482DDF4245AEDE700D1C47B /* SceneDelegate.swift */,
+				A4AE409424602A1B00677DD0 /* MatchStatisticViewControllerConfigurator.swift */,
+				A4AE4093246029D000677DD0 /* Presenter */,
 				A4AE4090246023BF00677DD0 /* View */,
 				A4AE40842460204100677DD0 /* BusinessLogicLayer */,
 				A42C7B4D245B0E1200673B86 /* NetworkLayer */,
@@ -243,6 +249,14 @@
 				A4AE408B2460235500677DD0 /* Cells */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		A4AE4093246029D000677DD0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A4AE4091246028E400677DD0 /* MatchStatisticPresenter.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 		BDC5C5891FDFA5CA322DD45C /* Pods */ = {
@@ -497,6 +511,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4AE4092246028E400677DD0 /* MatchStatisticPresenter.swift in Sources */,
 				A4AE408224601C1800677DD0 /* MatchStatisticServiceImplmplementation.swift in Sources */,
 				A482DE25245B03B800D1C47B /* Team.swift in Sources */,
 				A482DDF7245AEDE700D1C47B /* MatchStatisticViewController.swift in Sources */,
@@ -504,6 +519,7 @@
 				A482DE27245B03CD00D1C47B /* PlayersResponse.swift in Sources */,
 				A42C7B4C245B0C4300673B86 /* MapperImplementation.swift in Sources */,
 				A4AE408D2460238000677DD0 /* MatchStatisticViewControllerInput.swift in Sources */,
+				A4AE409524602A1B00677DD0 /* MatchStatisticViewControllerConfigurator.swift in Sources */,
 				A42C7B4A245B0C0B00673B86 /* Mapper.swift in Sources */,
 				A482DDF5245AEDE700D1C47B /* SceneDelegate.swift in Sources */,
 				A4AE408F246023A600677DD0 /* MatchStatisticViewControllerOutput.swift in Sources */,
